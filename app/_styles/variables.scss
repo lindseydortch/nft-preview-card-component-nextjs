@@ -1,22 +1,19 @@
 // COLORS
-$black: #1c232b;
-$grey: #6c7289;
-$cream: #f2eae2;
 $white: #ffffff;
-$green500: #3d8168;
-$green700: #1a4032;
+$black: #000000;
+$blue950: #0d192c;
+$blue900: #15263f;
+$blue800: #15263f;
+$blue500: #8bacd9;
+$cyan: #00fff8;
 
 // FONTS
-$fraunces: "Fraunces", serif;
-$montserrat: "Montserrat", sans-serif;
+$outfit: "Outfit", sans-serif;
 
 // SPACING
-$spacing-xl: 4rem;
-$spacing-lg: 3.2rem;
-$spacing-med: 2.4rem;
-$spacing-sm: 1.6rem;
-$spacing-xs: 0.8rem;
-$spacing-xxs: 0.4rem;
+$spacing-lg: 2.4rem;
+$spacing-med: 1.6rem;
+$spacing-sm: 0.8rem;
 
 // RESPONSIVE BREAKPOINTS
 $bp-mobile: 23.4375em; // 375px
@@ -37,22 +34,17 @@ $bp-mobile: 23.4375em; // 375px
 }
 
 @mixin textPreset1($color) {
-  font-family: $fraunces;
-  @include textPreset(700, 3.2rem, _, _, $color);
+  @include textPreset(600, 2.2rem, 125%, _, $color);
 }
 
 @mixin textPreset2($color) {
-  @include textPreset(700, 1.4rem, 110%, _, $color);
+  @include textPreset(300, 1.8rem, 145%, _, $color);
 }
 
-@mixin textPreset3($color) {
-  @include textPreset(500, 1.4rem, 160%, _, $color);
+@mixin textPreset3SemiBold($color) {
+  @include textPreset(600, 1.6rem, 125%, _, $color);
 }
 
-@mixin textPreset4($color) {
-  @include textPreset(500, 1.2rem, 120%, 0.05rem, $color);
-}
-
-@mixin textPreset5($color) {
-  @include textPreset(500, 1.3rem, 120%, _, $color);
+@mixin textPreset3Regular($color) {
+  @include textPreset(400, 1.6rem, 125%, 0.05rem, $color);
 }
