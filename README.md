@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github URL](https://github.com/lindseydortch/nft-preview-card-component-nextjs)
+- Live Site URL: [Netlify Deployed Site](https://nft-preview-card-component-nextjs.netlify.app/)
 
 ## My process
 
