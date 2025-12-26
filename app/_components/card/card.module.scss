@@ -1,4 +1,13 @@
 @use "@/app/_styles/variables" as *;
 
 .card {
+  padding: $spacing-lg;
+  background-color: $blue900;
+  border-radius: 1.5rem;
+  max-width: 35rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30.2rem 1fr;
+  row-gap: $spacing-lg;
 }

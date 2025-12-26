@@ -20,8 +20,8 @@ $bp-mobile: 23.4375em; // 375px
 
 // MIXINS
 @mixin textPreset(
-  $fontWeight,
-  $fontSize,
+  $fontWeight: 0,
+  $fontSize: 0,
   $lineHeight: 100%,
   $letterSpacing: 0,
   $color: $black
@@ -34,15 +34,15 @@ $bp-mobile: 23.4375em; // 375px
 }
 
 @mixin textPreset1($color) {
-  @include textPreset(600, 2.2rem, 125%, _, $color);
+  @include textPreset(600, 2.2rem, 125%, 0, $color);
 }
 
 @mixin textPreset2($color) {
-  @include textPreset(300, 1.8rem, 145%, _, $color);
+  @include textPreset(300, 1.8rem, 145%, 0, $color);
 }
 
 @mixin textPreset3SemiBold($color) {
-  @include textPreset(600, 1.6rem, 125%, _, $color);
+  @include textPreset(600, 1.6rem, 125%, 0, $color);
 }
 
 @mixin textPreset3Regular($color) {

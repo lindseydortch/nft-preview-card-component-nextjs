@@ -1,0 +1,25 @@
+@use "@/app/_styles/variables" as *;
+
+.userContainer {
+  margin-top: $spacing-lg;
+
+  display: flex;
+  column-gap: $spacing-med;
+  align-items: center;
+
+  h2 {
+    @include textPreset3Regular($blue500);
+
+    span {
+      color: $white;
+    }
+  }
+}
+
+.imgContainer {
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid $white;
+  width: 3.3rem;
+  height: 3.3rem;
+}
